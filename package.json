@@ -1,0 +1,17 @@
+{
+  "name": "githubcopilot",
+  "version": "1.0.0",
+  "description": "Este proyecto permite lanzar una lista de servicios Dockerizados a través de una página web estática. Los servicios se gestionan mediante una API Dockerizada que recibe peticiones POST desde la web y arranca los contenedores en la máquina local.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
